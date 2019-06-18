@@ -1,0 +1,17 @@
+nav.nav.row.middle-xs
+	input#hamburger-menu.c-hamburger__input(type='checkbox')
+	label.c-hamburger.c-hamburger--htx(for='hamburger-menu')
+		span
+	.modal
+		.modal-content
+			ul.navigation
+				li.item
+					a(href='https://gitmoji.js.org/zh-CN/', onmousedown="ga('send', 'event', 'Menu', 'Gitmoji');") Home
+				li.item
+					a(href='/zh-CN/about', onmousedown="ga('send', 'event', 'Menu', 'About');") 关于
+				li.item
+					a(href='/contributors', onmousedown="ga('send', 'event', 'Menu', 'Contributors');") 贡献者
+				li.item
+					a(href='https://github.com/jeff-tian/gitmoji', onmousedown="ga('send', 'event', 'Menu', 'GitHub');") GitHub
+				li.item
+					a(href='/', onmousedown="ga('send', 'event', 'Menu', 'Chinese');") English
