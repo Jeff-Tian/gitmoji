@@ -29,3 +29,4 @@ packages/website/public/api/
 
 # Turbo
 .turbo
+.idea
