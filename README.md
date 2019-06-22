@@ -1,32 +1,30 @@
-[中文](./README_zh-CN.md)
+[English](./README_en-US.md)
 
 <p align="center">
-	<a href="https://gitmoji.dev">
+	<a href="https://gitmoji.js.org">
 		<img src="https://cloud.githubusercontent.com/assets/7629661/20073135/4e3db2c2-a52b-11e6-85e1-661a8212045a.gif" width="456" alt="gitmoji">
 	</a>
 </p>
 <p align="center">
-	<a href="https://github.com/carloscuesta/gitmoji/actions?query=workflow%3ACI+branch%3Amaster">
-		<img src="https://img.shields.io/github/actions/workflow/status/carloscuesta/gitmoji/ci.yml?branch=master&style=flat-square"
+	<a href="https://travis-ci.org/jeff-tian/gitmoji">
+		<img src="https://img.shields.io/travis/jeff-tian/gitmoji.svg?style=flat-square"
 			 alt="Build Status">
 	</a>
-	<a href="https://gitmoji.dev">
+	<a href="https://gitmoji.js.org">
 		<img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square"
 			 alt="Gitmoji">
 	</a>
 </p>
 
-## About
+## 关于
 
-[Gitmoji](https://gitmoji.dev) is an initiative to standardize and explain **the use of emojis on GitHub commit messages**.
+[Gitmoji](https://gitmoji.js.org) 尝试标准化和解释 **emoji 在GitHub 提交信息中的使用**。
 
-**Using emojis** on **commit messages** provides an **easy way** of **identifying the purpose or intention of a commit** with only looking at the emojis used. As there are a lot of different emojis I found the need of creating a guide that can help to use emojis easier.
+在**提交信息中**使用**emoji**可以让**识别提交的目的或者意图**变得**简单**，只需要看一眼使用的 emoji 就好了。因为存在大量的不同的 emoji 所以创建一个能够让使用 emoji 更简单的指南就很有必要了。
 
-The gitmojis are published on the [following package](https://www.npmjs.com/package/gitmojis) in order to be used as a dependency 📦.
+## 使用 [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli)
 
-## Using [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli)
-
-To use gitmojis from your command line install [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli). A gitmoji interactive client for using emojis on commit messages.
+如果要从命令行使用 gitmojis，请安装 [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli)。这是一个在写提交信息时使用的交互式 gitmoji 客户端。
 
 ```bash
 npm i -g gitmoji-cli
@@ -60,7 +58,10 @@ Are you using Gitmoji on your project? Set the Gitmoji badge on top of your read
   />
 </a>
 ```
+## 贡献到 gitmoji
 
-## License
+要给 gitmoji 做贡献那真是小菜一碟，阅读 [贡献指引](https://github.com/jeff-tian/gitmoji/blob/master/.github/CONTRIBUTING.md)。你可以在[issues 部分](https://github.com/jeff-tian/gitmoji/issues/new)讨论 emoji。要添加新的 emoji 到清单只需创建一个 issue 并且发一个拉取请求即可，参考 [如何发一个拉取请求来添加 gitmoji](https://github.com/jeff-tian/gitmoji/blob/master/.github/CONTRIBUTING.md#how-to-add-a-gitmoji).
 
-The code is available under the [MIT](https://github.com/carloscuesta/gitmoji/blob/master/LICENSE) license.
+## 许可
+
+代码允许在 [MIT](https://github.com/jeff-tian/gitmoji/blob/master/LICENSE) 许可下使用。
