@@ -430,7 +430,7 @@
 			"emoji": "🏷️",
 			"entity": "&#127991;",
 			"code": ":label:",
-			"description": "添加或者更新类型（Flow, TypeScri）。",
+			"description": "添加或者更新类型（Flow, TypeScript）。",
 			"name": "label"
 		}
 	]
