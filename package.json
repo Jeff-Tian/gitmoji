@@ -6,7 +6,7 @@
     "pnpm": ">=8"
   },
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "dev": "pnpm turbo --parallel dev"
   },
   "devDependencies": {
